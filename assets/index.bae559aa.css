@@ -1,0 +1,1 @@
+button.svelte-khifyx{transition:all .1s ease-in-out;font-size:10vh;justify-content:center}button.svelte-khifyx:hover{transform:scale(1.1)}button.svelte-khifyx:active{animation:svelte-khifyx-clicked .2s linear}@keyframes svelte-khifyx-clicked{0%{transform:scale(1)}50%{transform:scale(.69)}to{transform:scale(1);rotate:360deg}}
