@@ -11,7 +11,7 @@
   button {
     transition: all 100ms ease-in-out;
     font-size: 10vh;
-    margin: 250px
+    justify-content: center;
   }
   button:hover {
     transform: scale(1.1);
