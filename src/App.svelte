@@ -5,7 +5,11 @@
   }
 </script>
 
-<button on:click={addtesco}>{count} 💀 {count ===1 ? 'Tesco': 'Tescos'} 💀</button>
+<main>
+  <button on:click={addtesco}>
+    {count} 💀 {count ===1 ? 'Tesco': 'Tescos'} 💀
+  </button>
+</main>
 
 <style>
   button {
@@ -30,5 +34,12 @@
       transform: scale(1);
       rotate: 360deg;
     }
+  }
+  main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
   }
 </style>
